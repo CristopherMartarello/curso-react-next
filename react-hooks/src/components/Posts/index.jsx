@@ -6,6 +6,7 @@ import {
   decrementCounter,
   incrementCounter,
 } from '../../contexts/CounterProvider/action';
+import { Menu } from '../Menu';
 
 //Como eu vou utilizar contexto, não preciso passar props para cá
 export const Posts = () => {
